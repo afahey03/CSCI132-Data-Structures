@@ -1,0 +1,8 @@
+Aidan Fahey
+Lab 10
+11/4/22
+
+My approach was to create a copy of the initial list and mergeSort the list so that it's in order. 
+mergeSort has an O(n log n) because it has (n) swaps and (log n) comparisons, and the for loop is just O(1)
+
+I collaborated with Charlie Youssef

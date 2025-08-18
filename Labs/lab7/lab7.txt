@@ -1,0 +1,18 @@
+Aidan Fahey
+10/28/22
+Charlie Youssef
+
+1.) This approach is O(n^2) because it loops through n integers n times to find closest distance.
+    This is the most precise statement we can make because you need to check every value against all of the other 
+    values to gauge every possible distance.
+
+2.) The worst case run time is O(n^2) and is when the lists are identical and neither contain duplicates.
+    It has to loop through both lists n times, check for common values, and put them in a new list, and in this case it would do that
+    for every index of both lists.
+
+3.) List size 65,000 took 2 seconds. List size 90,000 took 4 seconds. List size 150,000 took 8 seconds.
+
+4.) Worst case is O(nlog n) because you check the lists n times, binary search is logn, and appending is 1 per each iteration
+    List size 6000000 took 2 seconds. List size 12500000 took 4 seconds. List size 22000000 took 8 seconds.
+
+5.) List size 75,000,000 took 2 seconds. List size 150,000,000 took 4 seconds. List size 280,000,000 took 8 seconds.

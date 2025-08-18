@@ -1,0 +1,12 @@
+Aidan Fahey
+CSCI132
+Lab 6
+10/21/22
+
+I collaborated with Charlie Youssef
+
+1.) 3^32 power1 will take 31 multiplications; 3^32 power2 will take 32 multiplications; 3^32 power3 will take 7 multiplications
+    3^19 power1 will take 18 multiplications; 3^32 power2 will take 19 multiplications; 3^32 power3 will take 8 multiplications
+2.) 3^32 power2 will make 32 recursive calls; 3^32 power3 will make 6 recursive calls
+    3^19 power2 will make 19 recursive calls; 3^19 power3 will make 5 recursive calls
+3.) With 3^1000254, power1 took 11.744 seconds; power3 took 0.335 seconds

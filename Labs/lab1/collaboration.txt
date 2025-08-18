@@ -1,0 +1,2 @@
+I asked Eugene how he created the greatStudent object
+I explained to Michael how to loop through the courses[] array to print the courses

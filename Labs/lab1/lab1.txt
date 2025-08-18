@@ -1,0 +1,43 @@
+Lab1 Questions
+Aidan Fahey
+
+1.) The constructors are:
+    - Student();
+    - Student(std::string name, int year);
+
+2.) The member functions are:
+    - void addCourse(std::string courseName); 
+    - void printCourses(void) const;
+    - void printInfo(void) const;
+    - void setGradDate(int year);
+
+3.) The data members are:
+    - std::string name;
+    - int gradDate;
+    - std::string courses[6];
+    - int numCourses;
+
+4.) Public means everything is allowed to access, and private means only members of the same class can access
+
+5.) The constructors and functions that are stubs are:
+    - Student::Student(std::string name, int year)
+    - void Student::printInfo(void) const
+    - void Student::printCourses(void) const
+
+6.) The variable name is s
+
+7.) The default constructor is used to initialize this object
+
+8.) The member functions invoked are
+    s.setGradDate(yr);
+    s.addCourse(course);
+    s.printInfo();
+    s.printCourses();
+
+9.) The program asked me my graduation year and courses, which I entered until I entered done, and then nothing else.
+
+10.) It prints my entered graduation year and the courses I entered.
+
+Collaboration:
+I asked Eugene how he created the greatStudent object
+I explained to Michael how to loop through the courses[] array to print the courses

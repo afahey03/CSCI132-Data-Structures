@@ -1,0 +1,11 @@
+Aidan Fahey
+12/2/22
+CSCI 132 Lab 11
+
+I collaborated with Charlie Youssef
+
+a.) 10, 9, 6, 6, 6, 9, 3, 3, 5, 10, 0
+    There are 4 collisions
+
+b.) 1, 1, 5, 9, 0, 9, 3, 11, 2, 4, 0
+    There are 3 collisions

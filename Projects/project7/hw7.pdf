@@ -1,0 +1,19 @@
+Aidan Fahey
+Project 3
+11/3/2022
+
+Question 1: first = 0; last = 26 // target is above the twoThirds threshold, first becomes twoThirds + 1
+            first = 18; last = 26 // target is between oneThird and twoThirds threshold, first becomes oneThird + 1 and last becomes twoThirds - 1
+            first = 21; last = 22 // target is equal to twoThirds, return twoThirds
+
+Question 2: |40| |38| |37| |77| |77| |71| |43| |2| |64| |15| |9| |53| |80| |77| |64| |84| |20| |5| |7| |32| |5| |51| |20| |27|
+
+            |38, 40| |37, 77| |71, 77| |2, 43| |15, 64| |9, 53| |77, 80| |64, 84| |5, 20| |7, 32| |5, 51| |20, 27|
+
+            |37, 38, 40, 77| |2, 43, 71, 77| |9, 15, 53, 64| |64, 77, 80, 84| |5, 7, 20, 32| |5, 20, 27, 51|
+
+            |2, 37, 38, 40, 43, 71, 77, 77| |9, 15, 53, 64, 64, 77, 80, 84| |5, 5, 7, 20, 20, 27, 32, 51|
+
+            |2, 9, 15, 37, 38, 40, 43, 53, 64, 64, 71, 77, 77, 77, 80, 84| |5, 5, 7, 20, 20, 27, 32, 51|
+
+            |2, 5, 5, 7, 15, 20, 20, 27, 32, 37, 38, 40, 43, 51, 53, 64, 64, 71, 77, 77, 77, 80, 84|

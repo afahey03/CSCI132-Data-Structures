@@ -1,0 +1,15 @@
+Aidan Fahey
+11/17/22
+
+I collaborated with Charlie Youssef
+
+treeSort has the same efficiency for an in-order and a reverse-order array, neither of which are as good as it's
+efficiency for a random array.
+
+when n = 10
+random:                     in order:                   reverse order:
+29 comparisons, 59 copies   45 comparisons, 75 copies   45 comparisons, 75 copies
+
+when n = 100
+random:                       in order:                       reverse order:
+663 comparisons, 963 copies   4950 comparisons, 5250 copies   4950 comparisons, 5250 copies
